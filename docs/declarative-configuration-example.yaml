@@ -589,7 +589,8 @@ instrumentation/development:
       experimental_span_attributes/development: false
     rabbitmq:
       # Enables experimental span attributes `rabbitmq.command`, `rabbitmq.delivery_mode`,
-      # `rabbitmq.queue`, and `rabbitmq.record.queue_time_ms`.
+      # `rabbitmq.queue`, `rabbitmq.record.queue_time_ms`, `messaging.rabbitmq.vhost.name`, and
+      # `messaging.rabbitmq.cluster.name`.
       experimental_span_attributes/development: false
     reactor:
       # Enables the capture of the experimental `reactor.canceled` attribute on spans when reactive
